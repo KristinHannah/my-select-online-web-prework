@@ -3,7 +3,8 @@ def my_select(collection)
  while i < collection.length
     test = yield collection[i]
     if test == "true"
-    i += 1 
+      puts "#{collection[i]}"
+  i += 1 
   end
  end 
 end 
