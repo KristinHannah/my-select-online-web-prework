@@ -2,8 +2,7 @@ def my_select(array)
   i = 0 
   result = []
  while i < array.length
-    test = yield(array[i])
-      if test == true
+      if yield(array[i]) == true
         result << "#{array[i]}"
     i = i + 1 
   break if i == array.length
