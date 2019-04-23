@@ -4,7 +4,7 @@ def my_select(array)
  while i < array.length
     test = yield(array[i])
     if test == true
-      result << array[i]
+      result << "#{array[i]}"
    i = i + 1 
   break if i == array.length
   end
