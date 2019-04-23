@@ -3,7 +3,7 @@ def my_select(array)
   result = []
  while i < array.length
     test = yield(array[i])
-    if test == "true"
+    if test == TRUE
       result << array[i]
     i = i + 1 
   break if i == array.length
