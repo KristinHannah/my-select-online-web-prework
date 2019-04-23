@@ -5,7 +5,7 @@ def my_select(collection)
     test = yield(collection[i])
     if test == "true"
       result << collection[i]
-  i += 1 
+    i = i + 1 
   break if i == collection.length
   end
  end 
