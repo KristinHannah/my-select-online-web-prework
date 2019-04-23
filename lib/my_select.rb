@@ -5,7 +5,6 @@ def my_select(array)
     if yield(array[i]) == true
       result << array[i]
    i = i + 1 
-  break if i == array.length
   end
   return result
  end 
