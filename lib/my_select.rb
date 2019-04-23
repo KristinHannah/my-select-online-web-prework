@@ -5,7 +5,7 @@ def my_select(array)
     test = yield(array[i])
     if test == TRUE
       result.push(array[i])
-    i = i + 1 
+   i = i + 1 
   break if i == array.length
   end
   return result
