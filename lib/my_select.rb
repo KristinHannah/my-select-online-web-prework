@@ -5,6 +5,7 @@ def my_select(collection)
     if test == "true"
       puts "#{collection[i]}"
   i += 1 
+  break if i == collection.length
   end
  end 
 end 
