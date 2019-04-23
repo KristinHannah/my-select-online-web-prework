@@ -4,5 +4,6 @@ def my_select(collection)
     test = yield collection[i]
     if test == "true"
     i += 1 
+  end
  end 
 end 
