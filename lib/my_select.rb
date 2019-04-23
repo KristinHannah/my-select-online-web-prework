@@ -4,7 +4,7 @@ def my_select(collection)
   test = yield collection[i]
     if test == "true"
     puts return collection[i]
-  i += 1 
+    i += 1 
  end 
  end 
 end 
